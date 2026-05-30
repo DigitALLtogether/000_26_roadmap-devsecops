@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Credenciais e segredos — NUNCA commitar
+*.pem
+*.key
+*.env
+.env*
+secrets/
+credentials/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
