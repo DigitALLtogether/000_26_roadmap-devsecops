@@ -2,7 +2,7 @@
 
 **Autor:** Nate Herk | AI Automation  
 **Duração:** 2+ horas  
-**Fonte:** `../docs/transcript_Build & Sell Claude Code Operating Systems (2+ Hour Course).txt`
+**Fonte:** `docs/transcript_Build & Sell Claude Code Operating Systems (2+ Hour Course).txt`
 
 ## Objectivo
 
@@ -35,5 +35,6 @@ Construir um AI Operating System pessoal sobre Claude Code — a camada de intel
 
 ## Estrutura
 
+- `docs/` — transcrição completa do curso
 - `notas/` — resumos dos frameworks e decisões de arquitectura do AI OS pessoal
 - `labs/` — setup iterativo do AI OS, documentação do que foi adicionado e porquê

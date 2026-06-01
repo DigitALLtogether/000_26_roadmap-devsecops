@@ -2,7 +2,7 @@
 
 **Autor:** Nate Herk | AI Automation  
 **Duração:** ~30 minutos  
-**Fonte:** `../docs/transcript_I Turned Claude Opus 4.8 Into My Entire AI Operating System.txt`
+**Fonte:** `docs/transcript_I Turned Claude Opus 4.8 Into My Entire AI Operating System.txt`
 
 ## Objectivo
 
@@ -23,5 +23,6 @@ Este módulo serve para consolidar e ajustar o AI OS pessoal construído no mód
 
 ## Estrutura
 
+- `docs/` — transcrição completa do vídeo
 - `notas/` — apontamentos da demonstração e decisões de ajuste ao AI OS pessoal
 - `labs/` — testes práticos com o setup actualizado

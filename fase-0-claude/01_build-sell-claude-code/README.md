@@ -2,7 +2,7 @@
 
 **Autor:** Nate Herk | AI Automation  
 **Duração:** 10+ horas | 24 capítulos  
-**Fonte:** `../docs/transcript_Build & Sell with Claude Code (10+ Hour Course).txt`
+**Fonte:** `docs/transcript_Build & Sell with Claude Code (10+ Hour Course).txt`
 
 ## Objectivo
 
@@ -38,5 +38,6 @@ Dominar Claude Code do zero — desde o setup até skills avançadas, subagentes
 
 ## Estrutura
 
+- `docs/` — transcrição completa do curso
 - `notas/` — resumos por capítulo ou tema
 - `labs/` — exercícios práticos documentados (o que tentei, o que correu mal, como resolvi)

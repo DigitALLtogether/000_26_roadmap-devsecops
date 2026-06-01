@@ -19,7 +19,7 @@ Passar de utilizador casual do Claude a operador avançado do Claude Code: saber
 
 ## Transcrições de referência
 
-Disponíveis em `docs/` — ficheiros `.txt` com transcrições completas de cada vídeo, usados como base para notas e estudo.
+Cada transcrição `.txt` está dentro do módulo correspondente, em `<módulo>/docs/`, junto das notas e labs. Recurso de referência directo durante o estudo de cada curso.
 
 ## Conteúdo por módulo
 
@@ -62,14 +62,16 @@ Disponíveis em `docs/` — ficheiros `.txt` com transcrições completas de cad
 
 ```
 fase-0-claude/
-├── docs/                         # Transcrições dos 3 cursos
 ├── 01_build-sell-claude-code/
+│   ├── docs/                     # Transcrição do curso (10h+)
 │   ├── notas/                    # Resumos por capítulo
 │   └── labs/                     # Exercícios práticos documentados
 ├── 02_operating-systems/
+│   ├── docs/                     # Transcrição do curso (2h+)
 │   ├── notas/                    # Resumos dos frameworks 3M e 4C
 │   └── labs/                     # Setup e iteração do AI OS
 └── 03_opus-ai-os/
+    ├── docs/                     # Transcrição do vídeo (~30min)
     ├── notas/                    # Apontamentos da demonstração
     └── labs/                     # Configuração prática do AI OS pessoal
 ```
