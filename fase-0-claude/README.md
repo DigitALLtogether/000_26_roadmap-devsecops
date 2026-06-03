@@ -11,11 +11,12 @@ Passar de utilizador casual do Claude a operador avançado do Claude Code: saber
 
 ## Módulos
 
-| Pasta | Curso | Duração | Descrição |
-|-------|-------|---------|-----------|
+| Pasta | Curso / Projecto | Duração | Descrição |
+|-------|-----------------|---------|-----------|
 | `01_build-sell-claude-code/` | Build & Sell with Claude Code | 10h+ | Fundamentos completos — de zero a operador avançado |
 | `02_operating-systems/` | Build & Sell Claude Code Operating Systems | 2h+ | Arquitectura de um AI OS — frameworks 3 M's e 4 C's |
 | `03_opus-ai-os/` | I Turned Claude Opus 4.8 Into My Entire AI Operating System | ~30min | Demonstração prática do setup em produção com Opus 4.8 |
+| `04_devsecops-knowledge-wiki/` | DevSecOps Knowledge Wiki | contínuo | Sistema de conhecimento LLM Wiki (Karpathy) aplicado ao percurso DevSecOps |
 
 ## Transcrições de referência
 
@@ -70,8 +71,12 @@ fase-0-claude/
 │   ├── docs/                     # Transcrição do curso (2h+)
 │   ├── notas/                    # Resumos dos frameworks 3M e 4C
 │   └── labs/                     # Setup e iteração do AI OS
-└── 03_opus-ai-os/
-    ├── docs/                     # Transcrição do vídeo (~30min)
-    ├── notas/                    # Apontamentos da demonstração
-    └── labs/                     # Configuração prática do AI OS pessoal
+├── 03_opus-ai-os/
+│   ├── docs/                     # Transcrição do vídeo (~30min)
+│   ├── notas/                    # Apontamentos da demonstração
+│   └── labs/                     # Configuração prática do AI OS pessoal
+└── 04_devsecops-knowledge-wiki/
+    ├── docs/                     # Referências (transcript Karpathy, artigo original)
+    ├── notas/                    # Arquitectura, decisões de design
+    └── labs/                     # Setup e primeiras ingestões (raw/ + wiki/)
 ```
