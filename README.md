@@ -9,16 +9,15 @@ Cada pasta corresponde a uma fase e certificação — notas reais, labs pratica
 
 ## Progresso
 
-| Fase | Descrição | Estado | Certificações |
-|------|-----------|--------|---------------|
-| Fase 0 | Fundações | 🔵 Em curso | RHCSA, CCNA, NSE 1+2+3, AWS CCP, GitHub Foundations |
-| Fase 1 | Containers & IaC | ⬜ Pendente | CKA, Terraform, RHCE, AWS SysOps, GitHub Actions |
-| Fase 2 | DevSecOps Core | ⬜ Pendente | EX280, EX374, Vault, NSE4, Dynatrace, Elastic |
-| Fase 3 | Pro + Security | ⬜ Pendente | AWS DevOps Pro, AWS Security, CKS, EX430, PCNSA |
-| Fase 4 | IA Aplicada | ⬜ Pendente | AWS AI/ML, GCP Pro DevOps, Databricks, GitHub Copilot |
-| Diário | Diário de sessões | 🔵 Contínuo | — |
-
-> Ficheiros do diário: `AAAA-MM-DD_tema.md` (ex: `2026-06-01_inicio-percurso.md`)
+| Fase | Pasta | Descrição | Estado | Certificações |
+|------|-------|-----------|--------|---------------|
+| Fase 0 | `fase-0-ai-tools/` | AI Tools & Claude Code | 🔵 Em curso | — |
+| Fase 1 | `fase-1-devsecops-foundations/` | DevSecOps Foundations | 🔵 Em curso | RHCSA, CCNA, NSE 1+2+3, AWS CCP, GitHub Foundations |
+| Fase 2 | `fase-2-devsecops-fundamentals/` | DevSecOps Fundamentals | ⬜ Pendente | CKA, Terraform, RHCE, EX188, AWS SysOps, GitHub Actions |
+| Fase 3 | `fase-3-devsecops-core/` | DevSecOps Core | ⬜ Pendente | EX280, EX374, EX415, Vault, NSE4, Dynatrace, Elastic |
+| Fase 4 | `fase-4-devsecops-pro-security/` | DevSecOps Pro + Security | ⬜ Pendente | AWS DevOps Pro, AWS Security, CKS, EX430, PCNSA |
+| Fase 5 | `fase-5-advanced-ai-applications/` | Advanced AI Applications | ⬜ Pendente | EX267, AWS AI/ML, GCP Pro DevOps, Databricks, GitHub Copilot |
+| Diário | `diario/` | Diário de sessões | 🔵 Contínuo | — |
 
 ## Stack técnica
 `Linux` `Networking` `Python` `Bash` `Docker` `Kubernetes` `Terraform` `Ansible`  

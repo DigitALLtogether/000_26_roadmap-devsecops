@@ -1,4 +1,4 @@
-# Fase 1 — Fundações Sólidas
+# Fase 1 — DevSecOps Foundations
 
 **Duração estimada:** 3–4 meses | Jun 2026 – Fev 2027  
 **Ritmo:** ~10h/semana

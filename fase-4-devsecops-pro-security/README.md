@@ -1,4 +1,4 @@
-# Fase 5 — AWS Professional + Security Advanced
+# Fase 4 — DevSecOps Pro + Security
 
 **Duração estimada:** 5–6 meses | Fev–Jul 2028  
 **Ritmo:** ~10h/semana
@@ -11,7 +11,6 @@
 - CKS — Certified Kubernetes Security Specialist (Kyndryl)
 - EX430 — Red Hat OpenShift ACS Security (Kyndryl — raro, alto valor)
 - PCNSA — Palo Alto Networks Security Administrator (Kyndryl)
-- EX467 — Managing Ansible Automation Platform (opcional → caminho RHCA)
 
 ## Conteúdo
 | Pasta | Descrição |

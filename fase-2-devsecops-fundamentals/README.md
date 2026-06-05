@@ -1,4 +1,4 @@
-# Fase 2 — Containers, IaC & CI/CD
+# Fase 2 — DevSecOps Fundamentals
 
 **Duração estimada:** 4–5 meses | Mar–Jul 2027  
 **Ritmo:** ~10h/semana

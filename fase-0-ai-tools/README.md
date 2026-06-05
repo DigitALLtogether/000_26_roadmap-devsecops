@@ -1,4 +1,4 @@
-# Fase 0 — Claude Code & AI Operating System
+# Fase 0 — AI Tools & Claude Code Operating System
 
 **Período:** Contínuo (transversal a todo o percurso)  
 **Autoria dos cursos:** Nate Herk | AI Automation
@@ -62,7 +62,7 @@ Cada transcrição `.txt` está dentro do módulo correspondente, em `<módulo>/
 ## Estrutura de pastas
 
 ```
-fase-0-claude/
+fase-0-ai-tools/
 ├── 01_build-sell-claude-code/
 │   ├── docs/                     # Transcrição do curso (10h+)
 │   ├── notas/                    # Resumos por capítulo

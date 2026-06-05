@@ -1,4 +1,4 @@
-# Fase 4 — IA Aplicada ao DevSecOps
+# Fase 5 — Advanced AI Applications
 
 **Período:** 2029+ (contínuo)  
 **Ritmo:** ~10h/semana
