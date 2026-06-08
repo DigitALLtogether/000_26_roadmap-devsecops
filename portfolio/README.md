@@ -11,7 +11,7 @@ Este repositório contém os laboratórios e projectos seleccionados do meu perc
 Cada entrada representa trabalho real — não exercícios copiados, mas problemas resolvidos com contexto, decisões documentadas e validação.
 
 O percurso completo (notas de estudo, diário de sessões, scripts e artefactos de aprendizagem) está no
-[repositório principal](https://github.com/DigitALLtogether/000_26_portfolio-devsecops).
+[repositório principal](https://github.com/DigitALLtogether/000_26_roadmap-devsecops).
 
 ---
 

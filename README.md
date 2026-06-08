@@ -1,11 +1,11 @@
-# Portfólio DevSecOps — Ivan Almeida
+# Roadmap DevSecOps — Ivan Almeida
 
 Percurso técnico estruturado de **Sysadmin L1 → DevSecOps Sénior**  
-Empresa: Kyndryl | Lisboa | 2026–2031+
+Empresa: Kyndryl | Viseu | 2026–2031+
 
 ## Sobre este repositório
-Documentação prática e artefactos técnicos produzidos ao longo de um percurso de certificações DevSecOps.  
-Cada pasta corresponde a uma fase e certificação — notas reais, labs praticados, scripts escritos e decisões documentadas.
+Repositório de trabalho do percurso DevSecOps — notas de estudo, labs, scripts, diário de sessões e artefactos técnicos organizados por fase e certificação.  
+O portfólio curado para visitantes externos está em [DigitALLtogether/portfolio-devsecops](https://github.com/DigitALLtogether/portfolio-devsecops).
 
 ## Progresso
 
