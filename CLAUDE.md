@@ -18,7 +18,7 @@ Não é um projecto de software com build/test — é um repositório documental
 | `fase-5-advanced-ai-applications/` | 2029+ | AI/ML aplicado a DevSecOps, projectos de portfólio |
 | `diario/` | Contínuo | Diário de sessões de trabalho |
 | `portfolio/` | Contínuo | Labs e projectos curados para visitantes externos |
-| `docs/templates/` | — | Templates reutilizáveis para labs de estudo e portfólio |
+| `docs/` | — | Templates reutilizáveis para labs (`docs/templates/`) e documentação geral (CV de projecção) |
 
 ## Convenções de nomes e conteúdo
 

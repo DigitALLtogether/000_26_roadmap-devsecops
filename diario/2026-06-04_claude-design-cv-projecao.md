@@ -47,7 +47,7 @@ Prompt inclui instrução para upload de foto como input ao Claude Design.
 
 ### 3. Armazenamento
 
-Ficheiro `Ivan Almeida CV (standalone).html` guardado em `doc_geral/` pelo utilizador como referência motivacional e prévia do perfil final.
+Ficheiro `Ivan Almeida CV (standalone).html` guardado em `docs/` pelo utilizador como referência motivacional e prévia do perfil final.
 
 ---
 
@@ -69,13 +69,13 @@ Nenhum bloqueio. Sessão exploratória e de criação de conteúdo.
 ## Código/Artefactos
 
 - `diario/2026-06-04_claude-design-cv-projecao.md` — este ficheiro
-- `doc_geral/Ivan Almeida CV (standalone).html` — CV de projecção (gerado externamente pelo utilizador via Claude Design)
+- `docs/Ivan Almeida CV (standalone).html` — CV de projecção (gerado externamente pelo utilizador via Claude Design)
 
 ---
 
 ## Estado actual
 
-Repositório limpo. A pasta `doc_geral/` ficou com o CV de projecção. Nenhuma alteração ao roadmap ou às fases.
+Repositório limpo. O CV de projecção está guardado em `docs/`. Nenhuma alteração ao roadmap ou às fases.
 
 ---
 
@@ -91,7 +91,7 @@ Repositório limpo. A pasta `doc_geral/` ficou com o CV de projecção. Nenhuma 
 
 ## Contexto crítico a preservar
 
-- O CV em `doc_geral/` é uma **projecção motivacional** do percurso completo — não representa o estado actual
+- O CV em `docs/` é uma **projecção motivacional** do percurso completo — não representa o estado actual
 - O **prompt completo** para Claude Design está registado no diário desta sessão e pode ser reutilizado/ajustado
 - Claude Design requer plano Pro/Max/Team/Enterprise e está em research preview (Abril 2026)
 - A contagem correcta de certificações continua **33** (NSE 1+2+3 = grupo)
