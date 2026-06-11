@@ -1,0 +1,1201 @@
+Título: Andrej Karpathy Just 10x'd Everyone's Claude Code
+Canal: Nate Herk | AI Automation
+URL: https://www.youtube.com/watch?v=sboNwYmH3AY
+Transcrição gerada em: 11/06/2026
+Idioma: English (auto-generated)
+Duração: 17:46
+============================================================
+
+
+[0:00]  What you're looking at right here is 36
+[0:02]  of my most recent YouTube videos
+[0:03]  organized into an actual knowledge
+[0:05]  system that makes sense. And in today's
+[0:07]  video, I'm going to show you how you can
+[0:08]  set this up in 5 minutes. It's super
+[0:10]  super easy. You can see here how we have
+[0:12]  these different nodes and different
+[0:13]  patterns emerging. And as we zoom in, we
+[0:15]  can see what each of these little dots
+[0:17]  represents. So, for example, this is one
+[0:19]  of my videos, $10,000 aentic workflows.
+[0:22]  We can see it's got some tags. It's got
+[0:23]  the video link. It's got the raw file.
+[0:26]  And it gives an explanation of what this
+[0:27]  video is about and what the takeaways
+[0:29]  are. And the coolest part is I can
+[0:31]  follow the back links to get where I
+[0:32]  want. There's a backlink for the WAT
+[0:34]  framework. There's a backlink for Claude
+[0:36]  Code. There's a backlink for all these
+[0:38]  different tools I mentioned like
+[0:39]  Perplexity, Visual Studio Code, Nano
+[0:41]  Banana, Naden N. It also has techniques
+[0:43]  like the WT framework or bypass
+[0:45]  permissions mode or human review
+[0:47]  checkpoint. So, as this continues to
+[0:49]  fill up, we can start to see patterns
+[0:50]  and relationships between every tool or
+[0:53]  every skill or every MCP server that I
+[0:55]  might have talked about in a YouTube
+[0:56]  video. And I can just query it in a
+[0:58]  really efficient way now that we have
+[1:00]  this actual system set up. And the crazy
+[1:02]  part is I said, "Hey, Cloud Code, go
+[1:04]  grab the transcripts from my recent
+[1:05]  videos and organize everything. I
+[1:07]  literally didn't have to do any manual
+[1:10]  relationship building here. It just
+[1:11]  figured it all out on its own." And then
+[1:13]  right here, I have a much smaller one,
+[1:14]  but this is more of my personal brain.
+[1:16]  So this is stuff going on in my personal
+[1:18]  life. This is stuff going on with, you
+[1:19]  know, UpAI or my YouTube channel or my
+[1:21]  different businesses and my employees
+[1:23]  and our quarter 2 initiatives and things
+[1:25]  like that. This is more of my own second
+[1:27]  brain. So I've got one second brain here
+[1:28]  and then I've got one basically YouTube
+[1:30]  knowledge system and I could combine
+[1:33]  these or I could keep them separate and
+[1:34]  I can just keep building more knowledge
+[1:36]  systems and plug them all into other AI
+[1:38]  agents that I need to have this context.
+[1:40]  It's just super cool. So Andre Carpathy
+[1:42]  just released this little post about LLM
+[1:44]  knowledge bases and explaining what he's
+[1:46]  been doing with them. And in just a
+[1:47]  matter of few days, it got a ton of
+[1:48]  traction on X. So let's do a quick
+[1:50]  breakdown and then I'm going to show you
+[1:51]  guys how you can get this set up in
+[1:52]  basically 5 minutes. It's way more
+[1:54]  simple than you may think. Something
+[1:56]  I've been finding very useful recently
+[1:57]  is using LLM to build personal knowledge
+[1:59]  bases for various topics of research
+[2:01]  interest. So there's different stages.
+[2:03]  The first part is data ingest. He puts
+[2:05]  in basically source documents. So he
+[2:07]  basically takes a PDF and puts it into
+[2:09]  Cloud Code and then Cloud Code does the
+[2:11]  rest. He uses Obsidian as the IDE. So
+[2:13]  this is nothing really too
+[2:14]  game-changing. Obsidian just lets you
+[2:16]  visually see your markdown files. But
+[2:18]  for example, this Obsidian project right
+[2:20]  here with all this YouTube transcript
+[2:21]  stuff that actually lives right here.
+[2:23]  This is the exact same thing. Here are
+[2:24]  the raw YouTube transcripts. And here's
+[2:26]  that wiki that I showed you guys with
+[2:27]  the different um folders for what Cloud
+[2:31]  Code did with my YouTube transcripts.
+[2:32]  And then there's a Q&A phase where you
+[2:34]  basically can ask questions about
+[2:36]  YouTube or about the research and it can
+[2:38]  look through the entire wiki in a much
+[2:40]  more efficient way and it can give you
+[2:42]  answers that are super intelligent. He
+[2:44]  said here, "I thought that I had to
+[2:45]  reach for fancy rag, but the LLM has
+[2:47]  been pretty good about automaintaining
+[2:48]  index files and brief summaries of all
+[2:50]  documents and it reads all the important
+[2:52]  related data fairly easily at this small
+[2:54]  scale." So right now he's doing about
+[2:56]  100 articles and about half a million
+[2:58]  words. So there's a few other things
+[2:59]  that we'll cover later, but the TLDDR is
+[3:02]  you give raw data to cloud code. It
+[3:04]  compares it, it organizes it, and then
+[3:05]  it puts it into the right spots with
+[3:07]  relationships, and then you can query it
+[3:09]  about anything. And it can help you
+[3:10]  identify where there's gaps in that node
+[3:12]  or in that, you know, relationship, and
+[3:14]  it can go do research and fill in the
+[3:16]  gaps. All right. So why is this a big
+[3:17]  deal? Because normal AI chats are
+[3:19]  ephemeral, meaning the knowledge
+[3:21]  disappears after the conversation. But
+[3:23]  this method, using Karpathy's LLM wiki,
+[3:25]  makes knowledge compound like interest
+[3:27]  in a bank. People on X are calling it a
+[3:29]  game changanger because it finally makes
+[3:30]  AI feel like a tireless colleague who
+[3:32]  actually remembers everything and it
+[3:33]  stays organized. It's also super simple.
+[3:36]  It will take you five minutes to set up.
+[3:37]  I'll show you guys. You don't need a
+[3:39]  fancy vector database embeddings or
+[3:40]  complex infrastructure. It's literally
+[3:42]  just a folder with markdown files.
+[3:44]  That's it. You literally just have a
+[3:46]  vault up top. So in this example, it's
+[3:47]  called my wiki. You've got a raw folder
+[3:49]  where you put all of the stuff. And then
+[3:51]  you've got a wiki folder, which is what
+[3:53]  the LLM takes from your raw and puts it
+[3:55]  into the wiki. So in here you have all
+[3:57]  the wiki pages which it will create but
+[3:59]  then you also have an index and you have
+[4:00]  a log. So for example in my YouTube
+[4:02]  transcripts vault here is the index. You
+[4:05]  can see that I have all these different
+[4:06]  tools which I could obviously click on
+[4:07]  and it would take me right to that page
+[4:09]  or after that I have all the different
+[4:10]  techniques agent teams sub agents
+[4:13]  permission modes the WAT framework and
+[4:15]  then we've got different concepts MCP
+[4:17]  servers rag vibe coding we've got all
+[4:19]  these different sources which are you
+[4:20]  know the YouTube videos and then when I
+[4:22]  have people or when I have comparisons
+[4:24]  they will be put in here in the index
+[4:26]  and then we also have a log which is the
+[4:28]  operation history so in this case in the
+[4:30]  YouTube project the log isn't huge cuz I
+[4:31]  only ran one huge batch of the initial
+[4:33]  36 YouTube videos, but now every time I
+[4:36]  have one, I say, "Hey, can you go ahead
+[4:38]  and ingest the new YouTube video into
+[4:40]  the wiki and then we'll see every single
+[4:42]  time we update this." And then, of
+[4:44]  course, you need your claw. MD to
+[4:45]  explain how the project works and how to
+[4:47]  search through things and how to, you
+[4:49]  know, update things. It's also a big
+[4:51]  deal from a cost perspective, token
+[4:52]  efficiency, and long-term value. One X
+[4:54]  user turned 383 scattered files and over
+[4:57]  a 100 meeting transcripts into a compact
+[4:59]  wiki and dropped token usage by 95% when
+[5:02]  querying with Claude. And obviously
+[5:04]  token management and efficiency is a
+[5:06]  huge conversation right now and will
+[5:08]  always be. The other thing that's really
+[5:09]  cool about this is there's not really
+[5:11]  like a GitHub repo you go copy or
+[5:12]  there's not a complicated setup. You
+[5:14]  literally just say hey cloud code read
+[5:16]  this idea from Andre Karpathy and
+[5:18]  implement it. And people on X are now
+[5:20]  talking about like this is how 2026 AI
+[5:22]  agentic software and products will be
+[5:24]  made. You just give it a highle idea and
+[5:26]  it goes and builds it out. And Karpathy
+[5:28]  even said, "Hey, you know, I left this
+[5:30]  prompt vague so that you guys can
+[5:31]  customize it." And I'll show you the
+[5:33]  ways in my two different vaults right
+[5:34]  now that it changed things a little bit
+[5:36]  based on the context and understanding
+[5:38]  of what the project is actually for.
+[5:39]  Okay, so this was the original tweet I
+[5:41]  just showed you guys and then he
+[5:42]  followed up and said, "Hey, this one
+[5:43]  went viral. So here is the idea in a
+[5:45]  gist format." So if you open this up,
+[5:47]  this is basically just another
+[5:48]  explanation of the core idea of how this
+[5:50]  works and why the architecture,
+[5:52]  indexing, all this kind of stuff. And by
+[5:54]  the way, this is the part where he says,
+[5:55]  "Hey, this is left vague so that you can
+[5:56]  hack it and customize it to your own
+[5:58]  project." So we're going to come right
+[6:00]  back to this in a sec, but the first
+[6:01]  prerec that we're going to do, it's not
+[6:03]  necessary, but I like to have a nice
+[6:05]  little front end to see the
+[6:06]  relationships, is we're going to go to
+[6:08]  Obsidian and download it. So, if you
+[6:10]  just go to obsidian.mmd, you can see
+[6:12]  this is the completely free tool and
+[6:14]  you're going to go ahead and download
+[6:15]  it. So, just for your operating system,
+[6:17]  download this and then open up the
+[6:20]  wizard and open up the app. So, when you
+[6:22]  open up the app, it'll look like this.
+[6:23]  And what we're going to do here is we're
+[6:24]  going to create a new vault. So, down
+[6:25]  here, you can see I have Herk Brain and
+[6:27]  I have YouTube transcripts. I'll just
+[6:29]  make it a little bigger. I'm going to go
+[6:30]  to manage vaults. I'm going to create a
+[6:32]  new one. And now, we just have to give
+[6:34]  this a name. So, I'm just going to call
+[6:35]  this one demo vault. and you're going to
+[6:38]  choose a location where you want to put
+[6:39]  this. So, I'm just throwing this on my
+[6:41]  desktop and I'm going to go ahead and
+[6:42]  create this vault. Then, what you're
+[6:44]  going to do is go to wherever you like
+[6:46]  to run Cloud Code. So, in this case, I'm
+[6:47]  doing it in VS Code. And I open up that
+[6:50]  folder. So, demo vault. We get an
+[6:51]  Obsidian and then we get a welcome.md.
+[6:54]  So, I'm going to open up Claude. So, I'm
+[6:56]  going to do it in my terminal. I'm going
+[6:57]  to run Claude. And lately, I've been
+[6:59]  liking using my terminal better for
+[7:00]  Claude. I like to do it inside of VS
+[7:02]  Code, but the reason is just because I
+[7:04]  like to see the status line and I have,
+[7:06]  you know, a little bit more
+[7:06]  functionality. So, anyways, now that we
+[7:08]  have Cloud Code open, here's what we're
+[7:10]  going to do. We're going to go back over
+[7:12]  to the LLM wiki thing that we got from
+[7:13]  Andre Carpathy. We're going to copy all
+[7:15]  of this and we're going to go back into
+[7:19]  Cloud Code and then just paste it in
+[7:21]  there. So, that is the prompt from
+[7:23]  Carpathy that's going to build out
+[7:25]  everything we need. And then before we
+[7:26]  send that off, we're dropping this in
+[7:28]  which you guys can screenshot and then
+[7:29]  just throw into yours. But I'm saying
+[7:31]  you are now my LLM wiki agent. Implement
+[7:34]  this exact idea file as my complete
+[7:36]  second brain. Guide me step by step.
+[7:38]  Create the cloudmd schema blah blah
+[7:39]  blah. So this is just telling it what it
+[7:41]  needs to do with this idea that we just
+[7:43]  got from kpathy. So anyways, on the
+[7:45]  right we have this cloud code running
+[7:47]  and on the left we have our obsidian
+[7:48]  vault and you can see it just created
+[7:50]  those two folders. So it created the raw
+[7:52]  and it created the wiki as you can see.
+[7:54]  Now, by default, it threw in four
+[7:55]  folders. It threw in analysis, concepts,
+[7:57]  entities, and sources. Once we start to
+[7:59]  populate stuff, we can talk to it to see
+[8:00]  if that's actually the way we want to do
+[8:02]  it or not. Because it's interesting in
+[8:04]  my personal kind of second brain, the
+[8:06]  wiki is literally just markdown files.
+[8:08]  There's no structure to it. And in some
+[8:10]  cases, that's good. Carpathy actually
+[8:11]  said, "Sometimes I like to keep it
+[8:13]  really simple and really flat, which
+[8:14]  means like no subfolders and not a bunch
+[8:17]  of over organizing." But then you guys
+[8:19]  did see in my YouTube transcript one,
+[8:20]  there were different subfolders. And I
+[8:22]  think that in this case it actually
+[8:23]  makes more sense. But you can see that
+[8:25]  it went ahead and it created a claw.md.
+[8:27]  It created an index and a log and then a
+[8:29]  few different folders in our wiki. But
+[8:31]  now it's saying, "Hey, let's go ahead
+[8:31]  and try it out. Drop in your first
+[8:33]  source into the raw folder and tell me
+[8:35]  to ingest it." Okay, so I'm at this
+[8:36]  website called AI2027. If you guys
+[8:38]  haven't read this before, it's kind of
+[8:40]  an interesting read. So go check it out.
+[8:42]  And now let's say I want to get this
+[8:43]  into my vault. What I could do is just
+[8:45]  copy the whole page, right? And it might
+[8:47]  just come through a little weird. or we
+[8:49]  can just get an Obsidian extension which
+[8:51]  lets us basically take articles right
+[8:53]  from the web and just put it right into
+[8:54]  our vault. Super easy. So search for
+[8:56]  this extension called Obsidian Web
+[8:58]  Clipper. You would go ahead and add this
+[8:59]  to Chrome. So then when you're in the
+[9:00]  article that you want, you basically
+[9:02]  just click on your extensions, you open
+[9:03]  up Obsidian Web Clipper, and then you
+[9:05]  can just chuck it into your vault. And
+[9:06]  then right here, you're going to want to
+[9:07]  set this to RAW because this is the
+[9:09]  actual folder that it's going to put it
+[9:10]  in. So you can go ahead and click add to
+[9:12]  Obsidian. Open Obsidian. And then now
+[9:14]  you can see in my raw section we have
+[9:16]  this AI 2027 source with the title the
+[9:20]  source and it's not super super
+[9:22]  populated yet because the LLM in cloud
+[9:24]  code is going to do that. So here is our
+[9:27]  file. I'm going to open up cloud code
+[9:28]  and say awesome. I just threw in an
+[9:30]  article called AI 2027 into the raw. Can
+[9:32]  you please go ahead and ingest that? It
+[9:35]  might ask you some questions. It might
+[9:36]  also be helpful to before you start
+[9:38]  ingesting stuff say hey by the way this
+[9:39]  project is specifically for my second
+[9:41]  brain. So, personal things, business
+[9:43]  things, whatever. Or this is just a
+[9:45]  research project. This is where I'm
+[9:46]  going to chuck you all the articles and
+[9:48]  all the things that I want to learn
+[9:49]  about and all the things that I know.
+[9:50]  So, there's different ways that you can
+[9:51]  set up the project as you saw with mine.
+[9:53]  One for YouTube, one for just personal
+[9:56]  second brain. So, now what it's doing is
+[9:57]  it's going to read through this article
+[9:59]  and then it's going to figure out where
+[10:01]  should I chuck everything into the wiki.
+[10:02]  It's not just going to create one MD
+[10:04]  file for this. It might create five or
+[10:06]  it might create 10. And there's going to
+[10:07]  be relationships between each of the
+[10:09]  different sections that it creates. So,
+[10:10]  it's kind of doing its own method of
+[10:12]  chunking. Now, one thing I want to call
+[10:13]  out real quick is with this extension,
+[10:15]  if you go here and you open up the
+[10:17]  options for it, you can see that you can
+[10:19]  actually change where by default the
+[10:22]  folders are dropped, which is in the
+[10:24]  location section. By default, it'll be
+[10:26]  going to a place called clippings, but
+[10:27]  just go ahead and change that to raw.
+[10:29]  Okay. So, here it came back with all
+[10:30]  these questions, right? It said, "Here
+[10:32]  are my key takeaways from this article,
+[10:34]  blah blah blah." And now it'll ask you,
+[10:35]  "What do you want to emphasize from this
+[10:36]  article? What's your focus? How granular
+[10:38]  do you want to be? what's your plan? So,
+[10:40]  I'm just going to say I want this to be
+[10:42]  extremely thorough. This is my passion
+[10:45]  looking at where AI is going to go. Um,
+[10:47]  and this whole project, by the way, that
+[10:49]  you're setting up in this vault is
+[10:50]  basically just going to be my place to
+[10:52]  dump in research about AI. So, help me
+[10:54]  keep all that organized so that I can
+[10:55]  query it and that I can, you know, keep
+[10:57]  my thoughts related. So, that's just a
+[11:00]  quick example of what it might look like
+[11:01]  for you to give it some more context to
+[11:03]  continuously build your project. So, I'm
+[11:06]  going to switch over over here to the
+[11:07]  graph view because I think it it'll be
+[11:09]  interesting to see as it is starting to
+[11:10]  go through and create those different
+[11:12]  wiki files. It's going to go ahead and
+[11:14]  it's going to create all those
+[11:14]  relationships and we'll be able to watch
+[11:16]  it in real time. All right, so it's
+[11:17]  creating all of the wiki pages now and
+[11:19]  you can see that it said it's going to
+[11:20]  make about 25 because there's so much
+[11:23]  stuff going on in the original AI 2027
+[11:26]  article. Okay, so our first one just
+[11:27]  popped in here and there a second one
+[11:28]  just came through and now you can
+[11:30]  understand you're starting to see where
+[11:31]  do you have hubs or where do you just
+[11:33]  have little individual nodes? So this is
+[11:35]  a major hub. Someone named Eli, someone
+[11:38]  named Thomas, Daniel, and you can see
+[11:40]  all the different relationships here
+[11:41]  with things like AI governance with
+[11:43]  things like OpenBrain, superhuman coder.
+[11:46]  Okay, so that ingest took about 10
+[11:47]  minutes. So sometimes you have to be a
+[11:49]  little patient with, you know, it
+[11:50]  reading through everything and
+[11:51]  organizing everything, but it does a lot
+[11:53]  of heavy lifting, of course. When I
+[11:54]  uploaded the 36 YouTube transcripts in
+[11:57]  batch, it took about 14 minutes. So it
+[11:59]  kind of just depends, but it created 23
+[12:01]  wiki pages. We have the source. We have
+[12:04]  six people, five organizations and one
+[12:06]  AI systems page, different concepts, so
+[12:08]  technical alignment and geopolitical and
+[12:11]  then an analysis and then it asks some
+[12:13]  questions about it so that it can help
+[12:15]  make the relationships and make the
+[12:16]  structure even better. Now let's just
+[12:19]  open this one up a little bit deeper and
+[12:20]  see what it actually did in here with
+[12:22]  this stuff. So we have this is the
+[12:25]  source with all the main relationships.
+[12:27]  So as we start to add other articles, we
+[12:28]  will see other big kind of like nodes
+[12:30]  and maybe in some cases we'll have
+[12:32]  relationships between like compute
+[12:33]  scaling with different articles that we
+[12:35]  upload as well. So let's just see if I
+[12:37]  click into the main source, we can see
+[12:39]  the tags that it got. We can see the
+[12:41]  authors and we can click around. So
+[12:42]  here's a link to OpenAI. Okay, what's
+[12:44]  OpenAI? Here's references in AI 2027.
+[12:46]  Here's some other connections with
+[12:47]  OpenAI like modelsp spec. Okay, we're in
+[12:50]  model spec. Let's take a look. We can
+[12:51]  see other things about modelsp spec. And
+[12:53]  we could also go to how the LLM
+[12:55]  psychology model works. So this is just
+[12:57]  super super cool all the relationships
+[12:59]  that we get. And once again, all of this
+[13:01]  stuff that we're looking at was derived
+[13:02]  from one article and automatically
+[13:04]  organized and related. So the question
+[13:06]  now is like what do we do from here? Do
+[13:08]  we query it inside of this environment?
+[13:10]  Do we query it from somewhere else? And
+[13:12]  that's completely up to the way that you
+[13:14]  want to use this. So for example, with
+[13:15]  my YouTube project, I'm probably just
+[13:17]  going to keep this here. And whenever I
+[13:18]  want to ask questions about YouTube or
+[13:20]  if I want to turn this into like a
+[13:21]  website, I can just do that from here.
+[13:23]  Or if I need to, I can point a different
+[13:26]  project at this folder since
+[13:27]  everything's here and it can crawl
+[13:28]  through the wiki, it can read the index
+[13:30]  and it knows how this stuff works
+[13:32]  because you can give it the clawmd so it
+[13:34]  understands the project as well. So for
+[13:36]  example, in this one which is just my
+[13:37]  second brain where we have all of the
+[13:39]  different things about like I drop in my
+[13:40]  meeting recordings, I drop in, you know,
+[13:42]  ClickUp channels, summaries and things
+[13:44]  like that. This is something that I want
+[13:45]  to use in my executive assistant. So
+[13:47]  what I did in my executive assistant
+[13:48]  here called Herk 2, if I go to this
+[13:50]  cloud.MD, MD you can see that we have a
+[13:52]  wiki path. So whenever you need to read
+[13:55]  things about me and my business that you
+[13:56]  don't have already, you would basically
+[13:58]  go to my herkbrain vault. You would go
+[14:00]  to that directory and then you would
+[14:02]  read through the wiki. You can read the
+[14:03]  hot cache which I'll explain in just a
+[14:05]  sec. You can read the index. You can
+[14:06]  read the domain subindex and then you
+[14:08]  can also just search through everything
+[14:10]  here. And I said don't read from the
+[14:11]  wiki unless you actually need it. Here
+[14:13]  are some things that you might do that
+[14:14]  you don't need to go read the wiki for.
+[14:16]  And all of this is my business
+[14:17]  knowledge. Now, if you guys remember, if
+[14:19]  you watched my video on setting up an
+[14:20]  executive assistant, I used to do this
+[14:22]  with context files inside of this
+[14:24]  project. And when I changed over to this
+[14:26]  method, I actually saw a reduction in
+[14:28]  tokens that I was actually calling in
+[14:30]  this project. So, the thing about the
+[14:31]  hot cache, right, I didn't actually have
+[14:34]  this in my YouTube one. So, if I go to
+[14:36]  YouTube, you can see there's no hot
+[14:37]  cache. But, if I go to the herk brain in
+[14:40]  the wiki, you can see there's a hot.mmd
+[14:42]  right here. And this is basically just a
+[14:44]  cache of like 500 words or 500
+[14:46]  characters that it saves, which is like
+[14:48]  what is the most recent thing that Nate
+[14:50]  just gave me or that we talked about. In
+[14:52]  the context of my executive assistant,
+[14:53]  this is really helpful. You know, it
+[14:55]  might save me from having to crawl
+[14:56]  different wiki pages. But in something
+[14:58]  like the YouTube transcript project, I
+[15:00]  don't really need a hot cache. So,
+[15:02]  another thing that I alluded to but
+[15:03]  didn't really cover was the idea of
+[15:05]  linting. So Karpathi says that he runs
+[15:07]  some LLM health checks over the wiki to
+[15:09]  find inconsistent data, impute missing
+[15:12]  data with web searches, find interesting
+[15:14]  connections for new article candidates,
+[15:16]  things like that. So it basically helps
+[15:18]  you run a lint, you know, every day,
+[15:20]  every week, whenever you want, which
+[15:21]  helps make sure that everything is
+[15:23]  scalable and structured in the right
+[15:24]  way. And it might even come back and
+[15:26]  say, "Hey, I don't fully understand
+[15:28]  this. Can you give me some more info or
+[15:29]  can you grab some more articles that
+[15:30]  might help me out here?" So now the
+[15:32]  final question about this that I wanted
+[15:33]  to cover is like does this kill semantic
+[15:36]  search rag? And the answer is no, but
+[15:38]  kind of yes. And it all depends on the
+[15:41]  goal of the project and the goal of the
+[15:43]  context, how much context you have. So
+[15:45]  here's a really quick chart that I had
+[15:47]  my cloud code make. I was in my Herk
+[15:49]  brain where I dumped in a bunch of
+[15:50]  information about Karpathy's LLM
+[15:52]  knowledge and I just said, "Hey, can you
+[15:54]  please explain Karpathy knowledge as
+[15:56]  simple as possible, keep it super
+[15:58]  concise, and um compare it to typical
+[16:01]  semantic search rag." So, it found
+[16:04]  Carpathy's idea. Instead of a database,
+[16:06]  you just give the LM well organized
+[16:07]  markdown files and it compares it here
+[16:09]  to the actual semantic search rag. So,
+[16:12]  actually, I might as well just read it
+[16:13]  off from here. So it finds it by reading
+[16:15]  indexes and follows links rather than
+[16:17]  using similarity search. So we're
+[16:19]  getting a deeper understanding of
+[16:20]  relationships because they're links
+[16:22]  rather than just saying, "Hey, these
+[16:23]  chunks seem similar." As far as
+[16:25]  infrastructure, it is literally just
+[16:26]  markdown. So like I said, you don't even
+[16:28]  need the obsidian. You just need these
+[16:30]  markdown files. Whereas with semantic
+[16:32]  search, you need an embedding model. You
+[16:33]  need a vector database and a chunking
+[16:35]  pipeline. The cost over here is
+[16:37]  basically free. Your only cost is going
+[16:38]  to be tokens. Whereas over here, you
+[16:40]  might have ongoing compute and storage.
+[16:42]  And for maintenance, you just run a
+[16:43]  lint. You clean up things. You add more
+[16:45]  articles. You give it more context
+[16:47]  rather than having to re-mbed when
+[16:49]  things change. But right now, the
+[16:51]  weakness of course with the uh LLM
+[16:53]  knowledge wiki is that it doesn't scale
+[16:56]  huge across enterprises, right? Because
+[16:58]  it's just a bunch of files. Um and that
+[17:00]  is where the cost will probably get more
+[17:02]  and more expensive than going to
+[17:04]  something like standard semantic search
+[17:05]  or knowledger graph or light rag or
+[17:08]  whatever other tool is out there for
+[17:09]  that. So here you can see if you have
+[17:10]  hundreds of pages with good indexes,
+[17:12]  you're fine with wiki graph. But if you
+[17:14]  were getting up to the millions of
+[17:15]  documents, then you're going to want to
+[17:16]  actually do more of a traditional rag
+[17:18]  pipeline, at least for now with how the
+[17:20]  current models are and everything we
+[17:22]  know right now in April 2026. So that is
+[17:25]  going to do it for today. I hope you
+[17:27]  guys learned something new or enjoyed
+[17:28]  the video. And if you did, please give
+[17:29]  it a like. It helps me out a ton. Now,
+[17:31]  after this video, if you're interested
+[17:32]  in learning how you can create your own
+[17:33]  sort of executive assistant and then
+[17:35]  plug it into this Obsidian vault, then
+[17:37]  definitely check out this video up here
+[17:38]  where I go over how I built my executive
+[17:40]  assistant and the way that you should be
+[17:42]  thinking about it. So hopefully I'll see
+[17:43]  you guys over there, but if not, I'll
+[17:45]  see you in the next
+[0:00]  What you're looking at right here is 36
+[0:02]  of my most recent YouTube videos
+[0:03]  organized into an actual knowledge
+[0:05]  system that makes sense. And in today's
+[0:07]  video, I'm going to show you how you can
+[0:08]  set this up in 5 minutes. It's super
+[0:10]  super easy. You can see here how we have
+[0:12]  these different nodes and different
+[0:13]  patterns emerging. And as we zoom in, we
+[0:15]  can see what each of these little dots
+[0:17]  represents. So, for example, this is one
+[0:19]  of my videos, $10,000 aentic workflows.
+[0:22]  We can see it's got some tags. It's got
+[0:23]  the video link. It's got the raw file.
+[0:26]  And it gives an explanation of what this
+[0:27]  video is about and what the takeaways
+[0:29]  are. And the coolest part is I can
+[0:31]  follow the back links to get where I
+[0:32]  want. There's a backlink for the WAT
+[0:34]  framework. There's a backlink for Claude
+[0:36]  Code. There's a backlink for all these
+[0:38]  different tools I mentioned like
+[0:39]  Perplexity, Visual Studio Code, Nano
+[0:41]  Banana, Naden N. It also has techniques
+[0:43]  like the WT framework or bypass
+[0:45]  permissions mode or human review
+[0:47]  checkpoint. So, as this continues to
+[0:49]  fill up, we can start to see patterns
+[0:50]  and relationships between every tool or
+[0:53]  every skill or every MCP server that I
+[0:55]  might have talked about in a YouTube
+[0:56]  video. And I can just query it in a
+[0:58]  really efficient way now that we have
+[1:00]  this actual system set up. And the crazy
+[1:02]  part is I said, "Hey, Cloud Code, go
+[1:04]  grab the transcripts from my recent
+[1:05]  videos and organize everything. I
+[1:07]  literally didn't have to do any manual
+[1:10]  relationship building here. It just
+[1:11]  figured it all out on its own." And then
+[1:13]  right here, I have a much smaller one,
+[1:14]  but this is more of my personal brain.
+[1:16]  So this is stuff going on in my personal
+[1:18]  life. This is stuff going on with, you
+[1:19]  know, UpAI or my YouTube channel or my
+[1:21]  different businesses and my employees
+[1:23]  and our quarter 2 initiatives and things
+[1:25]  like that. This is more of my own second
+[1:27]  brain. So I've got one second brain here
+[1:28]  and then I've got one basically YouTube
+[1:30]  knowledge system and I could combine
+[1:33]  these or I could keep them separate and
+[1:34]  I can just keep building more knowledge
+[1:36]  systems and plug them all into other AI
+[1:38]  agents that I need to have this context.
+[1:40]  It's just super cool. So Andre Carpathy
+[1:42]  just released this little post about LLM
+[1:44]  knowledge bases and explaining what he's
+[1:46]  been doing with them. And in just a
+[1:47]  matter of few days, it got a ton of
+[1:48]  traction on X. So let's do a quick
+[1:50]  breakdown and then I'm going to show you
+[1:51]  guys how you can get this set up in
+[1:52]  basically 5 minutes. It's way more
+[1:54]  simple than you may think. Something
+[1:56]  I've been finding very useful recently
+[1:57]  is using LLM to build personal knowledge
+[1:59]  bases for various topics of research
+[2:01]  interest. So there's different stages.
+[2:03]  The first part is data ingest. He puts
+[2:05]  in basically source documents. So he
+[2:07]  basically takes a PDF and puts it into
+[2:09]  Cloud Code and then Cloud Code does the
+[2:11]  rest. He uses Obsidian as the IDE. So
+[2:13]  this is nothing really too
+[2:14]  game-changing. Obsidian just lets you
+[2:16]  visually see your markdown files. But
+[2:18]  for example, this Obsidian project right
+[2:20]  here with all this YouTube transcript
+[2:21]  stuff that actually lives right here.
+[2:23]  This is the exact same thing. Here are
+[2:24]  the raw YouTube transcripts. And here's
+[2:26]  that wiki that I showed you guys with
+[2:27]  the different um folders for what Cloud
+[2:31]  Code did with my YouTube transcripts.
+[2:32]  And then there's a Q&A phase where you
+[2:34]  basically can ask questions about
+[2:36]  YouTube or about the research and it can
+[2:38]  look through the entire wiki in a much
+[2:40]  more efficient way and it can give you
+[2:42]  answers that are super intelligent. He
+[2:44]  said here, "I thought that I had to
+[2:45]  reach for fancy rag, but the LLM has
+[2:47]  been pretty good about automaintaining
+[2:48]  index files and brief summaries of all
+[2:50]  documents and it reads all the important
+[2:52]  related data fairly easily at this small
+[2:54]  scale." So right now he's doing about
+[2:56]  100 articles and about half a million
+[2:58]  words. So there's a few other things
+[2:59]  that we'll cover later, but the TLDDR is
+[3:02]  you give raw data to cloud code. It
+[3:04]  compares it, it organizes it, and then
+[3:05]  it puts it into the right spots with
+[3:07]  relationships, and then you can query it
+[3:09]  about anything. And it can help you
+[3:10]  identify where there's gaps in that node
+[3:12]  or in that, you know, relationship, and
+[3:14]  it can go do research and fill in the
+[3:16]  gaps. All right. So why is this a big
+[3:17]  deal? Because normal AI chats are
+[3:19]  ephemeral, meaning the knowledge
+[3:21]  disappears after the conversation. But
+[3:23]  this method, using Karpathy's LLM wiki,
+[3:25]  makes knowledge compound like interest
+[3:27]  in a bank. People on X are calling it a
+[3:29]  game changanger because it finally makes
+[3:30]  AI feel like a tireless colleague who
+[3:32]  actually remembers everything and it
+[3:33]  stays organized. It's also super simple.
+[3:36]  It will take you five minutes to set up.
+[3:37]  I'll show you guys. You don't need a
+[3:39]  fancy vector database embeddings or
+[3:40]  complex infrastructure. It's literally
+[3:42]  just a folder with markdown files.
+[3:44]  That's it. You literally just have a
+[3:46]  vault up top. So in this example, it's
+[3:47]  called my wiki. You've got a raw folder
+[3:49]  where you put all of the stuff. And then
+[3:51]  you've got a wiki folder, which is what
+[3:53]  the LLM takes from your raw and puts it
+[3:55]  into the wiki. So in here you have all
+[3:57]  the wiki pages which it will create but
+[3:59]  then you also have an index and you have
+[4:00]  a log. So for example in my YouTube
+[4:02]  transcripts vault here is the index. You
+[4:05]  can see that I have all these different
+[4:06]  tools which I could obviously click on
+[4:07]  and it would take me right to that page
+[4:09]  or after that I have all the different
+[4:10]  techniques agent teams sub agents
+[4:13]  permission modes the WAT framework and
+[4:15]  then we've got different concepts MCP
+[4:17]  servers rag vibe coding we've got all
+[4:19]  these different sources which are you
+[4:20]  know the YouTube videos and then when I
+[4:22]  have people or when I have comparisons
+[4:24]  they will be put in here in the index
+[4:26]  and then we also have a log which is the
+[4:28]  operation history so in this case in the
+[4:30]  YouTube project the log isn't huge cuz I
+[4:31]  only ran one huge batch of the initial
+[4:33]  36 YouTube videos, but now every time I
+[4:36]  have one, I say, "Hey, can you go ahead
+[4:38]  and ingest the new YouTube video into
+[4:40]  the wiki and then we'll see every single
+[4:42]  time we update this." And then, of
+[4:44]  course, you need your claw. MD to
+[4:45]  explain how the project works and how to
+[4:47]  search through things and how to, you
+[4:49]  know, update things. It's also a big
+[4:51]  deal from a cost perspective, token
+[4:52]  efficiency, and long-term value. One X
+[4:54]  user turned 383 scattered files and over
+[4:57]  a 100 meeting transcripts into a compact
+[4:59]  wiki and dropped token usage by 95% when
+[5:02]  querying with Claude. And obviously
+[5:04]  token management and efficiency is a
+[5:06]  huge conversation right now and will
+[5:08]  always be. The other thing that's really
+[5:09]  cool about this is there's not really
+[5:11]  like a GitHub repo you go copy or
+[5:12]  there's not a complicated setup. You
+[5:14]  literally just say hey cloud code read
+[5:16]  this idea from Andre Karpathy and
+[5:18]  implement it. And people on X are now
+[5:20]  talking about like this is how 2026 AI
+[5:22]  agentic software and products will be
+[5:24]  made. You just give it a highle idea and
+[5:26]  it goes and builds it out. And Karpathy
+[5:28]  even said, "Hey, you know, I left this
+[5:30]  prompt vague so that you guys can
+[5:31]  customize it." And I'll show you the
+[5:33]  ways in my two different vaults right
+[5:34]  now that it changed things a little bit
+[5:36]  based on the context and understanding
+[5:38]  of what the project is actually for.
+[5:39]  Okay, so this was the original tweet I
+[5:41]  just showed you guys and then he
+[5:42]  followed up and said, "Hey, this one
+[5:43]  went viral. So here is the idea in a
+[5:45]  gist format." So if you open this up,
+[5:47]  this is basically just another
+[5:48]  explanation of the core idea of how this
+[5:50]  works and why the architecture,
+[5:52]  indexing, all this kind of stuff. And by
+[5:54]  the way, this is the part where he says,
+[5:55]  "Hey, this is left vague so that you can
+[5:56]  hack it and customize it to your own
+[5:58]  project." So we're going to come right
+[6:00]  back to this in a sec, but the first
+[6:01]  prerec that we're going to do, it's not
+[6:03]  necessary, but I like to have a nice
+[6:05]  little front end to see the
+[6:06]  relationships, is we're going to go to
+[6:08]  Obsidian and download it. So, if you
+[6:10]  just go to obsidian.mmd, you can see
+[6:12]  this is the completely free tool and
+[6:14]  you're going to go ahead and download
+[6:15]  it. So, just for your operating system,
+[6:17]  download this and then open up the
+[6:20]  wizard and open up the app. So, when you
+[6:22]  open up the app, it'll look like this.
+[6:23]  And what we're going to do here is we're
+[6:24]  going to create a new vault. So, down
+[6:25]  here, you can see I have Herk Brain and
+[6:27]  I have YouTube transcripts. I'll just
+[6:29]  make it a little bigger. I'm going to go
+[6:30]  to manage vaults. I'm going to create a
+[6:32]  new one. And now, we just have to give
+[6:34]  this a name. So, I'm just going to call
+[6:35]  this one demo vault. and you're going to
+[6:38]  choose a location where you want to put
+[6:39]  this. So, I'm just throwing this on my
+[6:41]  desktop and I'm going to go ahead and
+[6:42]  create this vault. Then, what you're
+[6:44]  going to do is go to wherever you like
+[6:46]  to run Cloud Code. So, in this case, I'm
+[6:47]  doing it in VS Code. And I open up that
+[6:50]  folder. So, demo vault. We get an
+[6:51]  Obsidian and then we get a welcome.md.
+[6:54]  So, I'm going to open up Claude. So, I'm
+[6:56]  going to do it in my terminal. I'm going
+[6:57]  to run Claude. And lately, I've been
+[6:59]  liking using my terminal better for
+[7:00]  Claude. I like to do it inside of VS
+[7:02]  Code, but the reason is just because I
+[7:04]  like to see the status line and I have,
+[7:06]  you know, a little bit more
+[7:06]  functionality. So, anyways, now that we
+[7:08]  have Cloud Code open, here's what we're
+[7:10]  going to do. We're going to go back over
+[7:12]  to the LLM wiki thing that we got from
+[7:13]  Andre Carpathy. We're going to copy all
+[7:15]  of this and we're going to go back into
+[7:19]  Cloud Code and then just paste it in
+[7:21]  there. So, that is the prompt from
+[7:23]  Carpathy that's going to build out
+[7:25]  everything we need. And then before we
+[7:26]  send that off, we're dropping this in
+[7:28]  which you guys can screenshot and then
+[7:29]  just throw into yours. But I'm saying
+[7:31]  you are now my LLM wiki agent. Implement
+[7:34]  this exact idea file as my complete
+[7:36]  second brain. Guide me step by step.
+[7:38]  Create the cloudmd schema blah blah
+[7:39]  blah. So this is just telling it what it
+[7:41]  needs to do with this idea that we just
+[7:43]  got from kpathy. So anyways, on the
+[7:45]  right we have this cloud code running
+[7:47]  and on the left we have our obsidian
+[7:48]  vault and you can see it just created
+[7:50]  those two folders. So it created the raw
+[7:52]  and it created the wiki as you can see.
+[7:54]  Now, by default, it threw in four
+[7:55]  folders. It threw in analysis, concepts,
+[7:57]  entities, and sources. Once we start to
+[7:59]  populate stuff, we can talk to it to see
+[8:00]  if that's actually the way we want to do
+[8:02]  it or not. Because it's interesting in
+[8:04]  my personal kind of second brain, the
+[8:06]  wiki is literally just markdown files.
+[8:08]  There's no structure to it. And in some
+[8:10]  cases, that's good. Carpathy actually
+[8:11]  said, "Sometimes I like to keep it
+[8:13]  really simple and really flat, which
+[8:14]  means like no subfolders and not a bunch
+[8:17]  of over organizing." But then you guys
+[8:19]  did see in my YouTube transcript one,
+[8:20]  there were different subfolders. And I
+[8:22]  think that in this case it actually
+[8:23]  makes more sense. But you can see that
+[8:25]  it went ahead and it created a claw.md.
+[8:27]  It created an index and a log and then a
+[8:29]  few different folders in our wiki. But
+[8:31]  now it's saying, "Hey, let's go ahead
+[8:31]  and try it out. Drop in your first
+[8:33]  source into the raw folder and tell me
+[8:35]  to ingest it." Okay, so I'm at this
+[8:36]  website called AI2027. If you guys
+[8:38]  haven't read this before, it's kind of
+[8:40]  an interesting read. So go check it out.
+[8:42]  And now let's say I want to get this
+[8:43]  into my vault. What I could do is just
+[8:45]  copy the whole page, right? And it might
+[8:47]  just come through a little weird. or we
+[8:49]  can just get an Obsidian extension which
+[8:51]  lets us basically take articles right
+[8:53]  from the web and just put it right into
+[8:54]  our vault. Super easy. So search for
+[8:56]  this extension called Obsidian Web
+[8:58]  Clipper. You would go ahead and add this
+[8:59]  to Chrome. So then when you're in the
+[9:00]  article that you want, you basically
+[9:02]  just click on your extensions, you open
+[9:03]  up Obsidian Web Clipper, and then you
+[9:05]  can just chuck it into your vault. And
+[9:06]  then right here, you're going to want to
+[9:07]  set this to RAW because this is the
+[9:09]  actual folder that it's going to put it
+[9:10]  in. So you can go ahead and click add to
+[9:12]  Obsidian. Open Obsidian. And then now
+[9:14]  you can see in my raw section we have
+[9:16]  this AI 2027 source with the title the
+[9:20]  source and it's not super super
+[9:22]  populated yet because the LLM in cloud
+[9:24]  code is going to do that. So here is our
+[9:27]  file. I'm going to open up cloud code
+[9:28]  and say awesome. I just threw in an
+[9:30]  article called AI 2027 into the raw. Can
+[9:32]  you please go ahead and ingest that? It
+[9:35]  might ask you some questions. It might
+[9:36]  also be helpful to before you start
+[9:38]  ingesting stuff say hey by the way this
+[9:39]  project is specifically for my second
+[9:41]  brain. So, personal things, business
+[9:43]  things, whatever. Or this is just a
+[9:45]  research project. This is where I'm
+[9:46]  going to chuck you all the articles and
+[9:48]  all the things that I want to learn
+[9:49]  about and all the things that I know.
+[9:50]  So, there's different ways that you can
+[9:51]  set up the project as you saw with mine.
+[9:53]  One for YouTube, one for just personal
+[9:56]  second brain. So, now what it's doing is
+[9:57]  it's going to read through this article
+[9:59]  and then it's going to figure out where
+[10:01]  should I chuck everything into the wiki.
+[10:02]  It's not just going to create one MD
+[10:04]  file for this. It might create five or
+[10:06]  it might create 10. And there's going to
+[10:07]  be relationships between each of the
+[10:09]  different sections that it creates. So,
+[10:10]  it's kind of doing its own method of
+[10:12]  chunking. Now, one thing I want to call
+[10:13]  out real quick is with this extension,
+[10:15]  if you go here and you open up the
+[10:17]  options for it, you can see that you can
+[10:19]  actually change where by default the
+[10:22]  folders are dropped, which is in the
+[10:24]  location section. By default, it'll be
+[10:26]  going to a place called clippings, but
+[10:27]  just go ahead and change that to raw.
+[10:29]  Okay. So, here it came back with all
+[10:30]  these questions, right? It said, "Here
+[10:32]  are my key takeaways from this article,
+[10:34]  blah blah blah." And now it'll ask you,
+[10:35]  "What do you want to emphasize from this
+[10:36]  article? What's your focus? How granular
+[10:38]  do you want to be? what's your plan? So,
+[10:40]  I'm just going to say I want this to be
+[10:42]  extremely thorough. This is my passion
+[10:45]  looking at where AI is going to go. Um,
+[10:47]  and this whole project, by the way, that
+[10:49]  you're setting up in this vault is
+[10:50]  basically just going to be my place to
+[10:52]  dump in research about AI. So, help me
+[10:54]  keep all that organized so that I can
+[10:55]  query it and that I can, you know, keep
+[10:57]  my thoughts related. So, that's just a
+[11:00]  quick example of what it might look like
+[11:01]  for you to give it some more context to
+[11:03]  continuously build your project. So, I'm
+[11:06]  going to switch over over here to the
+[11:07]  graph view because I think it it'll be
+[11:09]  interesting to see as it is starting to
+[11:10]  go through and create those different
+[11:12]  wiki files. It's going to go ahead and
+[11:14]  it's going to create all those
+[11:14]  relationships and we'll be able to watch
+[11:16]  it in real time. All right, so it's
+[11:17]  creating all of the wiki pages now and
+[11:19]  you can see that it said it's going to
+[11:20]  make about 25 because there's so much
+[11:23]  stuff going on in the original AI 2027
+[11:26]  article. Okay, so our first one just
+[11:27]  popped in here and there a second one
+[11:28]  just came through and now you can
+[11:30]  understand you're starting to see where
+[11:31]  do you have hubs or where do you just
+[11:33]  have little individual nodes? So this is
+[11:35]  a major hub. Someone named Eli, someone
+[11:38]  named Thomas, Daniel, and you can see
+[11:40]  all the different relationships here
+[11:41]  with things like AI governance with
+[11:43]  things like OpenBrain, superhuman coder.
+[11:46]  Okay, so that ingest took about 10
+[11:47]  minutes. So sometimes you have to be a
+[11:49]  little patient with, you know, it
+[11:50]  reading through everything and
+[11:51]  organizing everything, but it does a lot
+[11:53]  of heavy lifting, of course. When I
+[11:54]  uploaded the 36 YouTube transcripts in
+[11:57]  batch, it took about 14 minutes. So it
+[11:59]  kind of just depends, but it created 23
+[12:01]  wiki pages. We have the source. We have
+[12:04]  six people, five organizations and one
+[12:06]  AI systems page, different concepts, so
+[12:08]  technical alignment and geopolitical and
+[12:11]  then an analysis and then it asks some
+[12:13]  questions about it so that it can help
+[12:15]  make the relationships and make the
+[12:16]  structure even better. Now let's just
+[12:19]  open this one up a little bit deeper and
+[12:20]  see what it actually did in here with
+[12:22]  this stuff. So we have this is the
+[12:25]  source with all the main relationships.
+[12:27]  So as we start to add other articles, we
+[12:28]  will see other big kind of like nodes
+[12:30]  and maybe in some cases we'll have
+[12:32]  relationships between like compute
+[12:33]  scaling with different articles that we
+[12:35]  upload as well. So let's just see if I
+[12:37]  click into the main source, we can see
+[12:39]  the tags that it got. We can see the
+[12:41]  authors and we can click around. So
+[12:42]  here's a link to OpenAI. Okay, what's
+[12:44]  OpenAI? Here's references in AI 2027.
+[12:46]  Here's some other connections with
+[12:47]  OpenAI like modelsp spec. Okay, we're in
+[12:50]  model spec. Let's take a look. We can
+[12:51]  see other things about modelsp spec. And
+[12:53]  we could also go to how the LLM
+[12:55]  psychology model works. So this is just
+[12:57]  super super cool all the relationships
+[12:59]  that we get. And once again, all of this
+[13:01]  stuff that we're looking at was derived
+[13:02]  from one article and automatically
+[13:04]  organized and related. So the question
+[13:06]  now is like what do we do from here? Do
+[13:08]  we query it inside of this environment?
+[13:10]  Do we query it from somewhere else? And
+[13:12]  that's completely up to the way that you
+[13:14]  want to use this. So for example, with
+[13:15]  my YouTube project, I'm probably just
+[13:17]  going to keep this here. And whenever I
+[13:18]  want to ask questions about YouTube or
+[13:20]  if I want to turn this into like a
+[13:21]  website, I can just do that from here.
+[13:23]  Or if I need to, I can point a different
+[13:26]  project at this folder since
+[13:27]  everything's here and it can crawl
+[13:28]  through the wiki, it can read the index
+[13:30]  and it knows how this stuff works
+[13:32]  because you can give it the clawmd so it
+[13:34]  understands the project as well. So for
+[13:36]  example, in this one which is just my
+[13:37]  second brain where we have all of the
+[13:39]  different things about like I drop in my
+[13:40]  meeting recordings, I drop in, you know,
+[13:42]  ClickUp channels, summaries and things
+[13:44]  like that. This is something that I want
+[13:45]  to use in my executive assistant. So
+[13:47]  what I did in my executive assistant
+[13:48]  here called Herk 2, if I go to this
+[13:50]  cloud.MD, MD you can see that we have a
+[13:52]  wiki path. So whenever you need to read
+[13:55]  things about me and my business that you
+[13:56]  don't have already, you would basically
+[13:58]  go to my herkbrain vault. You would go
+[14:00]  to that directory and then you would
+[14:02]  read through the wiki. You can read the
+[14:03]  hot cache which I'll explain in just a
+[14:05]  sec. You can read the index. You can
+[14:06]  read the domain subindex and then you
+[14:08]  can also just search through everything
+[14:10]  here. And I said don't read from the
+[14:11]  wiki unless you actually need it. Here
+[14:13]  are some things that you might do that
+[14:14]  you don't need to go read the wiki for.
+[14:16]  And all of this is my business
+[14:17]  knowledge. Now, if you guys remember, if
+[14:19]  you watched my video on setting up an
+[14:20]  executive assistant, I used to do this
+[14:22]  with context files inside of this
+[14:24]  project. And when I changed over to this
+[14:26]  method, I actually saw a reduction in
+[14:28]  tokens that I was actually calling in
+[14:30]  this project. So, the thing about the
+[14:31]  hot cache, right, I didn't actually have
+[14:34]  this in my YouTube one. So, if I go to
+[14:36]  YouTube, you can see there's no hot
+[14:37]  cache. But, if I go to the herk brain in
+[14:40]  the wiki, you can see there's a hot.mmd
+[14:42]  right here. And this is basically just a
+[14:44]  cache of like 500 words or 500
+[14:46]  characters that it saves, which is like
+[14:48]  what is the most recent thing that Nate
+[14:50]  just gave me or that we talked about. In
+[14:52]  the context of my executive assistant,
+[14:53]  this is really helpful. You know, it
+[14:55]  might save me from having to crawl
+[14:56]  different wiki pages. But in something
+[14:58]  like the YouTube transcript project, I
+[15:00]  don't really need a hot cache. So,
+[15:02]  another thing that I alluded to but
+[15:03]  didn't really cover was the idea of
+[15:05]  linting. So Karpathi says that he runs
+[15:07]  some LLM health checks over the wiki to
+[15:09]  find inconsistent data, impute missing
+[15:12]  data with web searches, find interesting
+[15:14]  connections for new article candidates,
+[15:16]  things like that. So it basically helps
+[15:18]  you run a lint, you know, every day,
+[15:20]  every week, whenever you want, which
+[15:21]  helps make sure that everything is
+[15:23]  scalable and structured in the right
+[15:24]  way. And it might even come back and
+[15:26]  say, "Hey, I don't fully understand
+[15:28]  this. Can you give me some more info or
+[15:29]  can you grab some more articles that
+[15:30]  might help me out here?" So now the
+[15:32]  final question about this that I wanted
+[15:33]  to cover is like does this kill semantic
+[15:36]  search rag? And the answer is no, but
+[15:38]  kind of yes. And it all depends on the
+[15:41]  goal of the project and the goal of the
+[15:43]  context, how much context you have. So
+[15:45]  here's a really quick chart that I had
+[15:47]  my cloud code make. I was in my Herk
+[15:49]  brain where I dumped in a bunch of
+[15:50]  information about Karpathy's LLM
+[15:52]  knowledge and I just said, "Hey, can you
+[15:54]  please explain Karpathy knowledge as
+[15:56]  simple as possible, keep it super
+[15:58]  concise, and um compare it to typical
+[16:01]  semantic search rag." So, it found
+[16:04]  Carpathy's idea. Instead of a database,
+[16:06]  you just give the LM well organized
+[16:07]  markdown files and it compares it here
+[16:09]  to the actual semantic search rag. So,
+[16:12]  actually, I might as well just read it
+[16:13]  off from here. So it finds it by reading
+[16:15]  indexes and follows links rather than
+[16:17]  using similarity search. So we're
+[16:19]  getting a deeper understanding of
+[16:20]  relationships because they're links
+[16:22]  rather than just saying, "Hey, these
+[16:23]  chunks seem similar." As far as
+[16:25]  infrastructure, it is literally just
+[16:26]  markdown. So like I said, you don't even
+[16:28]  need the obsidian. You just need these
+[16:30]  markdown files. Whereas with semantic
+[16:32]  search, you need an embedding model. You
+[16:33]  need a vector database and a chunking
+[16:35]  pipeline. The cost over here is
+[16:37]  basically free. Your only cost is going
+[16:38]  to be tokens. Whereas over here, you
+[16:40]  might have ongoing compute and storage.
+[16:42]  And for maintenance, you just run a
+[16:43]  lint. You clean up things. You add more
+[16:45]  articles. You give it more context
+[16:47]  rather than having to re-mbed when
+[16:49]  things change. But right now, the
+[16:51]  weakness of course with the uh LLM
+[16:53]  knowledge wiki is that it doesn't scale
+[16:56]  huge across enterprises, right? Because
+[16:58]  it's just a bunch of files. Um and that
+[17:00]  is where the cost will probably get more
+[17:02]  and more expensive than going to
+[17:04]  something like standard semantic search
+[17:05]  or knowledger graph or light rag or
+[17:08]  whatever other tool is out there for
+[17:09]  that. So here you can see if you have
+[17:10]  hundreds of pages with good indexes,
+[17:12]  you're fine with wiki graph. But if you
+[17:14]  were getting up to the millions of
+[17:15]  documents, then you're going to want to
+[17:16]  actually do more of a traditional rag
+[17:18]  pipeline, at least for now with how the
+[17:20]  current models are and everything we
+[17:22]  know right now in April 2026. So that is
+[17:25]  going to do it for today. I hope you
+[17:27]  guys learned something new or enjoyed
+[17:28]  the video. And if you did, please give
+[17:29]  it a like. It helps me out a ton. Now,
+[17:31]  after this video, if you're interested
+[17:32]  in learning how you can create your own
+[17:33]  sort of executive assistant and then
+[17:35]  plug it into this Obsidian vault, then
+[17:37]  definitely check out this video up here
+[17:38]  where I go over how I built my executive
+[17:40]  assistant and the way that you should be
+[17:42]  thinking about it. So hopefully I'll see
+[17:43]  you guys over there, but if not, I'll
+[17:45]  see you in the next

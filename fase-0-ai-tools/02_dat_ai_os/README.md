@@ -33,8 +33,20 @@ Construir um AI Operating System pessoal sobre Claude Code — a camada de intel
 - **Function breakdown:** decompor tarefas grandes em blocos pequenos e automatizáveis
 - **Curiosity rule:** tratar AI como mentor — perguntar sempre *porquê* foi feito assim
 
+## Opus 4.8 AI Operating System (~30min)
+
+**Fonte:** `docs/transcript_I Turned Claude Opus 4.8 Into My Entire AI Operating System.txt`
+
+Demonstração prática de um AI OS em produção com Claude Opus 4.8:
+
+- Setup do "segundo cérebro" com Opus 4.8
+- Executive assistant pessoal com contexto persistente
+- Integração com contexto de negócio/estudo
+- Optimização de tokens para uso diário
+- Evolução e manutenção do AI OS ao longo do tempo
+
 ## Estrutura
 
-- `docs/` — transcrição completa do curso
+- `docs/` — transcrições: OS course (2h+) e Opus 4.8 demo (~30min)
 - `notas/` — resumos dos frameworks e decisões de arquitectura do AI OS pessoal
 - `labs/` — setup iterativo do AI OS, documentação do que foi adicionado e porquê

@@ -1,4 +1,4 @@
-# Módulo 04 — DevSecOps Knowledge Wiki
+# Módulo 03 — DevSecOps Knowledge Wiki
 
 **Tipo:** Projecto de portfólio contínuo  
 **Fase:** 0 (arranque) → transversal a todo o percurso  
@@ -66,4 +66,4 @@ Karpathy documentou que a 100–500 artigos / ~500k palavras, o LLM consegue man
 ## Referências
 
 - Andrej Karpathy — post original sobre LLM knowledge bases (X / GitHub Gist)
-- Secção em `../02_operating-systems/docs/transcript_Build & Sell Claude Code Operating Systems (2+ Hour Course).txt` → 2:05:13–2:16:xx
+- Secção em `../02_dat_ai_os/docs/transcript_Build & Sell Claude Code Operating Systems (2+ Hour Course).txt` → 2:05:13–2:16:xx
